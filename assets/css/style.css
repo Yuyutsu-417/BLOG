@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
+
+.bg-grey {
+    background-color: #F2F2F2;
+}
+
+.blog-head {
+    color: #1E1E1E;
+    font-family: 'Nunito', sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 133.4%;
+    letter-spacing: 0.88px;
+    z-index: 1;
+    position: relative;
+}
+
+.blog-line {
+    position: relative;
+}
+
+.blog-line::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 5.5px;
+    background-color: #F9D84C;
+    bottom: 12%;
+    left: 0;
+    z-index: -1;
+}
+
+.col-4 {
+    width: 30% !important;
+}
+
+.S2-box {
+    padding: 9px 11px 21px 10px;
+    border-radius: 15px;
+    border: 1px solid rgba(250, 202, 16, 0.40);
+    background: #FFF;
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.09);
+}
+
+.box-head {
+    color: var(--black1);
+    font-family: 'Nunito', sans-serif;
+    font-size: var(--medium2);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pl-11 {
+    padding-left: 11px;
+}
+
+.box-text {
+    color: var(--black1);
+    font-family: 'Lora', sans-serif;
+    font-size: var(--small3);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 176%;
+    letter-spacing: 0.34px;
+}
+
+.box-grey-line {
+    width: 100%;
+    height: 1px;
+    background-color: #F3F3F3;
+}
+
+.box-btn {
+    padding: 11px 30px 10px 30px;
+    background-color: var(--black1);
+    border-radius: 5px;
+    border: 1px solid transparent;
+    color: var(--white1);
+    font-family: 'Nunito', sans-serif;
+    font-size: var(--medium1);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    transition: all 300ms linear;
+}
+
+.box-btn:hover {
+    background: #FACA10;
+    box-shadow: 0px 10px 40px -12px rgba(250, 202, 16, 0.35);
+}
+
+
+.blog-load-btn {
+    color: var(--white1);
+    font-family: 'Nunito', sans-serif;
+    font-size: var(--medium1);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    padding: 11px 30px 10px 30px;
+    background-color: var(--yellow1);
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.mt-6{
+    margin-top: 6px;
+}
+
+.view-more {
+    display: none;
+}
+
+.blog-time {
+    color: #B0B0B0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.blog-name-text {
+    color: #1E1E1E;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
